@@ -3,7 +3,7 @@ import tensorflow as tf
 import numpy as np
 import cv2
 
-from prediction import model
+from .prediction import model
 
 
 TARGET_LAYER = "conv5_block16_2_conv"

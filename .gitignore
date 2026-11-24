@@ -1,3 +1,29 @@
+# Python environment
 .venv/
+venv/
 __pycache__/
 *.pyc
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Generated screening images
+backend/uploads/
+backend/gradcam_outputs/
+backend/gradcam_result.jpg
+
+# Frontend dependencies and build
+node_modules/
+dist/
+
+# Editor and operating system
+.vscode/
+.DS_Store
+Thumbs.db

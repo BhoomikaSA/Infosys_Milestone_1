@@ -3,7 +3,7 @@ from pathlib import Path
 import numpy as np
 import tensorflow as tf
 
-from preprocessing import preprocess_image
+from .preprocessing import preprocess_image
 
 
 MODEL_PATH = (
